@@ -5,9 +5,9 @@ Enhance your coding efficiency with our expert-led 6-lesson GitHub Copilot cours
 
 ## 🌱 Getting Started
 
-To get started, make sure to follow the instructions on how to fork the lessons into your own GitHub account. This will allow you to modify the code and complete the challenges at your own pace. 
+To get started, make sure to follow the instructions on how to fork the lessons into your own GitHub account. This will allow you to modify the code and complete the challenges at your own pace.
 
-To use GitHub Copilot, you must have an active GitHub Copilot subscription. 
+To use GitHub Copilot, you must have an active GitHub Copilot subscription.
 
 **Sign up for free here: [GitHub Copilot](https://gh.io/copilot).** 
 
@@ -87,7 +87,7 @@ Check out more .NET courses on Microsoft Learn Training on:
 * [Entity Framework Core for Beginners](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX7uTkjYwvCJDG2qhcSzwZ6)
 * [.NET on Azure for Beginners](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
 
-###  Additional Learning 
+### Additional Learning 
 
 Our team produces other courses! Check out:
 
@@ -107,7 +107,7 @@ Our team produces other courses! Check out:
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -116,7 +116,7 @@ a CLA and decorate the PR appropriately (e.g., status check, comment). Simply fo
 provided by the bot. You will only need to do this once across all repos using our CLA.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Trademarks
@@ -125,4 +125,4 @@ This project may contain trademarks or logos for projects, products, or services
 trademarks or logos is subject to and must follow 
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+Any use of third-party trademarks or logos is subject to those third-parties' policies.

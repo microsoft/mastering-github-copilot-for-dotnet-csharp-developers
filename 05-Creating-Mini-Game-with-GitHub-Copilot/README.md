@@ -2,7 +2,7 @@
 
 # Creating a Mini Game with GitHub Copilot
 
-In this module, we’ll explore how to use GitHub Copilot to build a classic rock, paper, scissors minigame. This hands-on project is designed to sharpen your programming skills and enhance your ability to develop console applications in C#. Best of all, we’ll use GitHub Codespaces, so there’s no need to worry about setting up a development environment. With GitHub Copilot as your AI pair programmer, you can focus on creating your application while effortlessly collaborating with your intelligent coding assistant. Lets begin.
+In this module, we’ll explore how to use GitHub Copilot to build a classic rock, paper, scissors minigame. This hands-on project is designed to sharpen your programming skills and enhance your ability to develop console applications in C#. Best of all, we’ll use GitHub Codespaces, so there’s no need to worry about setting up a development environment. With GitHub Copilot as your AI pair programmer, you can focus on creating your application while effortlessly collaborating with your intelligent coding assistant. Let's begin.
 
 </header>
 
@@ -31,7 +31,7 @@ By the end of this module, you'll acquire the skills to be able to:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?devcontainer_path=.devcontainer%2Fmini-game%2Fdevcontainer.json)
 
-You have already learned a bit about GitHub Codespaces and GitHub Copilot and how they work. In this challenge exercise, your goal is to develop a minigame in C# using GitHub Copilot. 
+You have already learned a bit about GitHub Codespaces and GitHub Copilot and how they work. In this challenge exercise, your goal is to develop a minigame in C# using GitHub Copilot.
 
 #### Testing your GitHub Codespace
 
@@ -46,7 +46,7 @@ You have already learned a bit about GitHub Codespaces and GitHub Copilot and ho
    
 ### Creating the game logic
 
-Now that you've verified that Codespaces working with GitHub Copilot, your next step is to develop the logic of the C# minigame with the help of GitHub Copilot based on the following specifications:
+Now that you've verified that Codespaces is working with GitHub Copilot, your next step is to develop the logic of the C# minigame with the help of GitHub Copilot based on the following specifications:
 
 The winner of the game is determined by three simple rules:
 
@@ -58,7 +58,7 @@ The winner of the game is determined by three simple rules:
 
 The computer will be your opponent and can randomly choose one of the elements (**rock**, **paper**, or **scissors**). Your game interaction will be through the console (Terminal).
 
-- The player can choose one of the three options rock, paper, or scissors and should be warned if they enter an invalid option.
+- The player can choose one of the three options: rock, paper, or scissors and should be warned if they enter an invalid option.
 - At each round, the player must enter one of the options in the list and be informed if they won, lost, or tied with the opponent.
 - By the end of each round, the player can choose whether to play again.
 - Display the player's score at the end of the game.

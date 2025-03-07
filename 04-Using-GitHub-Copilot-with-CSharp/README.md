@@ -47,30 +47,30 @@ We will review the steps to update the Weather BackEnd App by adding a new endpo
 
 ### 🤔 Step 0: Get familiarized with the "GitHub Codespaces ♥️ .NET" repository
 
-Once you open the repository in Codespaces, you will find a new browser window with a fully functional Codespace. Everything in this repository is contained within this one Codespace. In example, in the explorer panel, we can see the main code for the BackEnd and the FrontEnd project.
+Once you open the repository in Codespaces, you will find a new browser window with a fully functional Codespace. Everything in this repository is contained within this one Codespace. For example, in the explorer panel, we can see the main code for the BackEnd and the FrontEnd project.
 
-![new Codespace with all the repository running](./images/005OpenRepoInCodeSpaces.png)
+![new Codespace with all the repositories running](./images/005OpenRepoInCodeSpaces.png)
 
 Before we run the project, let's use GitHub Copilot Chat to inquire about what the project is and the different components.
 
-1. Open **GitHub Copilot Chat** from the main navigation bar. 
+1. Open **GitHub Copilot Chat** from the main navigation bar.
 1. Type in `What is this project doing, and what are the key components?` and hit **Send***
 
 GitHub Copilot Chat will now look at the entire project and give us a summary of what the projects do, what technology they use, and any of the key components in them.
 
 ![Copilot Chat describing the project](./images/004AskCopilotAboutProject.png)
 
-From here, you can click on files to navigate to them and you can ask follow up questions such as `What APIs are available?`.
+From here, you can click on files to navigate to them and you can ask follow-up questions such as `What APIs are available?`.
 
 
 ### 🚀 Step 1: Run the projects
 
-Now that we have context of what is in the project, let's run it and see it in action.
+Now that we have context for what is in the project, let's run it and see it in action.
 In order to run the BackEnd project, go to the "Run and Debug" panel, and select the "BackEnd" Project.
 
 ![open program.cs in the BackEnd project](./images/006RunBackEndProject.png)
 
-Start Debugging the selected project. The Weather API project, our BackEnd project will now be running in port 8080. We can copy the published url from the *Ports* panel
+Start Debugging the selected project. The Weather API project, our BackEnd project will now be running on port 8080. We can copy the published url from the *Ports* panel
 
 ![Copy app url from the ports panel](./images/007ProjectRunningOpenInNewTab.png)
 
@@ -91,7 +91,7 @@ Add a breakpoint in line 24 (press F9) and refresh the browser with the Url to t
 
 ![debug the running application.](./images/009DebugBackEndDemo.png)
 
-Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. The application should have been generated samples Weather values for the next 5 days. The variable `forecast` has an array containing these values.
+Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. The application should have generated samples Weather values for the next 5 days. The variable `forecast` has an array containing these values.
 
 ![debug the running application.](./images/010DebugForecastValue.png)
 
@@ -150,7 +150,7 @@ Navigate to the end of the file and ask Copilot to generate a new record that in
 // create a new internal record named WeatherForecastByCity that request the following parameters: City, Date, TemperatureC, Summary
 ```
 
-The generated code sould be similar to this one:
+The generated code should be similar to this one:
 
 ```csharp
 // create a new internal record named WeatherForecastByCity that request the following parameters: City, Date, TemperatureC, Summary
@@ -179,7 +179,7 @@ In the following example, we added some extra blank lines after the previous end
 
 ![Copilot ghost suggestion for the new endpoint](./images/020GeneratedCode.gif)
 
-***Important**: This prompt generates several lines of C# code. It's strongly adviced to check and review the generated code to verify that it works in the desired way.*
+***Important**: This prompt generates several lines of C# code. It's strongly advised to check and review the generated code to verify that it works in the desired way.*
 
 The generated code should look similar to this one:
 
