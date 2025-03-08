@@ -65,7 +65,7 @@ From here, you can click on files to navigate to them and you can ask follow up 
 
 ### 🚀 Step 1: Run the projects
 
-Now that we have context of what is in the project, let's run it and see it in action.
+Now that we have context on what is in the project, let's run it and see it in action.
 In order to run the BackEnd project, go to the "Run and Debug" panel, and select the "BackEnd" Project.
 
 ![open program.cs in the BackEnd project](./images/006RunBackEndProject.png)
@@ -121,13 +121,13 @@ The selected C# code is part of an ASP.NET Core application using the minimal AP
 - `/fix` to propose a fix for the problems in the selected code 
 - `/generate` to generate code to answer your question
 
-Let's use the `/tests` command to generate tests to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/tests` (or select the /tests slash command) to generate a new set of tests for this record.
+Let's use the `/tests` command to generate tests for the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/tests` (or select the /tests slash command) to generate a new set of tests for this record.
 
 ![Use slash command to generate tests for the selected piece of code](./images/012SlashCmdTests.gif)
 
-At this point, GitHub Copilot will suggest a new class. You need to first press [Accept] to create the new file. 
+At this point, GitHub Copilot will suggest a new class. You need to first press [Accept] to create the new file.
 
-A new class `ProgramTests.cs` was created and added to the project. This tests are using XUnit, however, you can ask to generate tests using another Unit Test library with a command like this one `/tests use MSTests for unit testing`.
+A new class `ProgramTests.cs` was created and added to the project. These tests are using XUnit, however, you can ask to generate tests using another Unit Test library with a command like this one `/tests use MSTests for unit testing`.
 
 ***Important:** We are not going to use the test file in this project. You must delete the generated test file to continue.*
 
@@ -150,7 +150,7 @@ Navigate to the end of the file and ask Copilot to generate a new record that in
 // create a new internal record named WeatherForecastByCity that request the following parameters: City, Date, TemperatureC, Summary
 ```
 
-The generated code sould be similar to this one:
+The generated code should be similar to this one:
 
 ```csharp
 // create a new internal record named WeatherForecastByCity that request the following parameters: City, Date, TemperatureC, Summary
