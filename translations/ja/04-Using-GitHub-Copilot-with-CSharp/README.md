@@ -69,27 +69,27 @@ https://< your url>.app.github.dev/weatherforecast
 
 ![実行中のアプリケーションをテスト](../../../04-Using-GitHub-Copilot-with-CSharp/images/008TestRunningApi.png)  
 
-次に、アプリケーションにブレークポイントを設定し、APIの各呼び出しをデバッグします。`Program.cs` file in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
+次に、アプリケーションにブレークポイントを設定し、APIの各呼び出しをデバッグします。BackEnd プロジェクトの`Program.cs`ファイルに移動します。このファイルは`SampleApp\BackEnd\Program.cs`というパスにあります。
 
-Add a breakpoint in line 24 (press F9) and refresh the browser with the Url to test the endpoint. The browser should not show the weather forecast, and in the Visual Studio Editor we can see how the program execution was paused at line 24.
+24行目にブレークポイントを追加し（F9キーを押す）、URLでブラウザを更新してエンドポイントをテストします。ブラウザには天気予報が表示されず、Visual Studioエディタでプログラムの実行が24行目で一時停止していることを確認できます。
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/009DebugBackEndDemo.png)
 
-Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. The application should have been generated samples Weather values for the next 5 days. The variable `forecast` has an array containing these values.
+F10キーを押すと、32行目までステップバイステップでデバッグできます。32行目で生成された値を確認できます。アプリケーションは今後5日間の天気のサンプル値を生成しているはずです。変数`forecast`には、これらの値を含む配列が格納されています。
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/010DebugForecastValue.png)
 
-You can stop debugging now.
+これでデバッグを停止できます。
 
-Congratulations! Now you are ready to add more features into the app using GitHub Copilot.
+おめでとうございます！これで、GitHub Copilot を使用してアプリに機能を追加する準備が整いました。
 
-### 🗒️ Step 2: Get familiarized with GitHub Copilot Slash Commands
+### 🗒️ ステップ2: GitHub Copilotのスラッシュコマンドに慣れる
 
-As we start working in our codebase, we usually need to refactor some code, or get more context or explanations about it. Using GitHub Copilot Chat, we can have AI-driven conversations to perform these tasks. 
+コードベースで作業を開始すると、通常、コードをリファクタリングしたり、コードに関する詳細なコンテキストや説明を入手したりする必要が生じます。GitHub Copilot Chat を使用すると、AI を活用した会話を通じてこれらのタスクを実行できます。
 
-Open the file `Program.cs` in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
+「BackEnd」プロジェクトのファイル`Program.cs`を開きます。このファイルは`SampleApp\BackEnd\Program.cs`というパスにあります。
 
-Now let's use a slash command, in GitHub Copilot to understand a piece of code. Select lines 22-35, press `CTRL + I` to open the inline chat, and type `/explain`に移動します。  
+では、GitHub Copilotでスラッシュコマンドを使ってコードの一部を理解してみましょう。22行目から35行目までを選択し、`CTRL + I`を押してインラインチャットを開き、`/explain`と入力してください。
 
 ![コードの説明をするスラッシュコマンドを使用](../../../04-Using-GitHub-Copilot-with-CSharp/images/011SlashCommandExplain.gif)  
 
@@ -105,26 +105,26 @@ The selected C# code is part of an ASP.NET Core application using the minimal AP
 - `/fix` to propose a fix for the problems in the selected code 
 - `/generate` to generate code to answer your question
 
-Let's use the `/tests` command to generate tests to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/tests` (or select the /tests slash command) to generate a new set of tests for this record.
+`/tests`コマンドを使ってコードのテストを生成してみましょう。39行目から42行目までを選択し、`CTRL + I` を押してインラインチャットを開き、`/tests`と入力（または`/tests`スラッシュコマンドを選択）して、このレコードの新しいテストセットを生成します。
 
 ![Use slash command to generate tests for the selected piece of code](../../../04-Using-GitHub-Copilot-with-CSharp/images/012SlashCmdTests.gif)
 
-At this point, GitHub Copilot will suggest a new class. You need to first press [Accept] to create the new file. 
+この時点で、GitHub Copilot は新しいクラスを提案します。新しいファイルを作成するには、まず [Accept] を押す必要があります。
 
-A new class `ProgramTests.cs` was created and added to the project. This tests are using XUnit, however, you can ask to generate tests using another Unit Test library with a command like this one `/tests use MSTests for unit testing`.
+新しいクラス`ProgramTests.cs`が作成され、プロジェクトに追加されました。このテストはXUnitを使用していますが、`/tests use MSTests for unit testing`のようなコマンドを実行することで、別のユニットテストライブラリを使用してテストを生成することもできます。
 
-***Important:** We are not going to use the test file in this project. You must delete the generated test file to continue.*
+***重要:** このプロジェクトではテストファイルは使用しません。続行するには、生成されたテストファイルを削除する必要があります。*
 
-Finally, let's use the `/doc` to generate automatic documentation to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/doc` (or select the command) to generate the documentation for this record.
+最後に、`/doc` を使ってコードのドキュメントを自動生成しましょう。39行目から42行目までを選択し、`CTRL + I` を押してインラインチャットを開き、`/doc` と入力（またはコマンドを選択）して、このレコードのドキュメントを生成します。
 
 ![Use slash command to generate the documentation for a piece of code](../../../04-Using-GitHub-Copilot-with-CSharp/images/013SlashCmdDoc.gif)
 
-Inline chat, the Chat Panel, and slash commands are part of the amazing tools that support our development experience with GitHub Copilot. Now we are ready to add new features to this App.
+インラインチャット、チャットパネル、スラッシュコマンドは、GitHub Copilot を使った開発環境を支える素晴らしいツールの一部です。さあ、このアプリに新機能を追加する準備が整いました。
 
 
-### 🗒️ Step 3: Generate a new Record that includes the city name
+### 🗒️ ステップ3: 都市名を含む新しいレコードを生成する
 
-Go to the `Program.cs` file in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`  
+「BackEnd」プロジェクトの`Program.cs`ファイルに移動します。このファイルは`SampleApp\BackEnd\Program.cs`というパスにあります。
 
 ![BackEndプロジェクトのprogram.csを開く](../../../04-Using-GitHub-Copilot-with-CSharp/images/011OpenBackEndProject.png)  
 
