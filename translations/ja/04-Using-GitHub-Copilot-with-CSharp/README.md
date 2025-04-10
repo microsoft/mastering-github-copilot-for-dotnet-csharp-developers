@@ -69,7 +69,7 @@ https://< your url>.app.github.dev/weatherforecast
 
 ![実行中のアプリケーションをテスト](../../../04-Using-GitHub-Copilot-with-CSharp/images/008TestRunningApi.png)  
 
-次に、アプリケーションにブレークポイントを設定し、APIの各呼び出しをデバッグします。BackEnd プロジェクトの`Program.cs`ファイルに移動します。このファイルは`SampleApp\BackEnd\Program.cs`というパスにあります。
+次に、アプリケーションにブレークポイントを設定し、APIの各呼び出しをデバッグします。「BackEnd」プロジェクトの`Program.cs`ファイルに移動します。このファイルは`SampleApp\BackEnd\Program.cs`というパスにあります。
 
 24行目にブレークポイントを追加し（F9キーを押す）、URLでブラウザを更新してエンドポイントをテストします。ブラウザには天気予報が表示されず、Visual Studioエディタでプログラムの実行が24行目で一時停止していることを確認できます。
 
