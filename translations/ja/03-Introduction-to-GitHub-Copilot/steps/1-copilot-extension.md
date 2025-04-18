@@ -10,7 +10,7 @@ GitHub Copilot は、コードをより速く、より少ない労力で書く�
 
 Codespace 内で Copilot を使用すると、GitHub の [Collaborative Coding](https://github.com/features#features-collaboration) ツール群を使い始めるのがいかに簡単かを実感できます。
 
-> **Note**
+> **注:**
 > このスキル演習では、GitHub Codespace を活用することに焦点を当てます。この演習を進める前に、GitHub スキル [Codespaces](https://github.com/skills/code-with-codespaces) を完了することをお勧めします。
 
 ### ⌨️ アクティビティ: Codespace 内で Copilot を有効化する
