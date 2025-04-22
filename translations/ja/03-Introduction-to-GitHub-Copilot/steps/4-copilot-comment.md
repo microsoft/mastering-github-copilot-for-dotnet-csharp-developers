@@ -18,7 +18,7 @@ _素晴らしいですね、Copilotタブを活用しています！_ 🎉
    // create a method that generates a comment for a given skill
    ```
 4. `enter` to go to a new line.
-5. Copilot will suggest a code block.
+5. Copilot がコード ブロックを提案します。
 6. Hover over the red squiggly and select the `...`
 
    > **Note**
