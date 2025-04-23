@@ -19,7 +19,7 @@ _素晴らしいですね、Copilotタブを活用しています！_ 🎉
    ```
 4. `enter` to go to a new line.
 5. Copilot will suggest a code block.
-6. Hover over the red squiggly and select the `...`
+6. 赤い波線の上にマウスを移動し、`...`を選択します。
 
    > **Note**
    > If you don't see the copilot code block suggestion or the red squiggly and the three dots `...`, you can type `control + enter` to bring up the GitHub Copilot completions panel.
