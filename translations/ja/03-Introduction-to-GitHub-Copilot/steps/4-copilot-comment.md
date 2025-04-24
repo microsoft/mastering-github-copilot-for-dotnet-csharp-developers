@@ -21,7 +21,7 @@ _素晴らしいですね、Copilotタブを活用しています！_ 🎉
 5. Copilot will suggest a code block.
 6. Hover over the red squiggly and select the `...`
 
-   > **Note**
+   > **注**
    > If you don't see the copilot code block suggestion or the red squiggly and the three dots `...`, you can type `control + enter` to bring up the GitHub Copilot completions panel.
 
 7. Click `Open Completions Panel`. Copilot will synthesise around 10 different code suggestions. You should see something like this:
