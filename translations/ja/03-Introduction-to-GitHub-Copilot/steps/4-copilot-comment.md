@@ -24,7 +24,7 @@ _素晴らしいですね、Copilotタブを活用しています！_ 🎉
    > **Note**
    > If you don't see the copilot code block suggestion or the red squiggly and the three dots `...`, you can type `control + enter` to bring up the GitHub Copilot completions panel.
 
-7. Click `Open Completions Panel`. Copilot will synthesise around 10 different code suggestions. You should see something like this:
+7. `Open Completions Panel` をクリックします。Copilot は約10種類のコード候補を合成します。以下のような画面が表示されます。
    ![VS Code showing suggestions to a comment](../../../../03-Introduction-to-GitHub-Copilot/steps/img/4-copilot-comment-0.png)
 8. Find a solution you like and click `Accept Solution` を押します。
 9. `Comments.cs` ファイルが解決済みの内容で更新されます。
