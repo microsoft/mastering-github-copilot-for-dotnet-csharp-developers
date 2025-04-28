@@ -40,7 +40,7 @@ GitHub Copilotを使って変更内容を要約し、コードをコミットし
 
 3. **Commit** ボタンをクリックします。
 
-[Exercise 4 - Using GitHub Copilot with C#](../../04-Using-GitHub-Copilot-with-CSharp/README.md) に進んでください。
+[演習 4 - C# で GitHub Copilot を使う](../../04-Using-GitHub-Copilot-with-CSharp/README.md) に進んでください。
 
 **免責事項**:  
 この文書は、AI翻訳サービスを使用して機械的に翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な表現が含まれる可能性があります。原文（元の言語で記載された文書）が正式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。本翻訳の使用に起因する誤解や誤った解釈について、当方は一切の責任を負いません。
