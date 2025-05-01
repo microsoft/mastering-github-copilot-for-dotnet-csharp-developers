@@ -71,7 +71,7 @@ https://< your url>.app.github.dev/weatherforecast
 
 次に、アプリケーションにブレークポイントを設定し、APIの各呼び出しをデバッグします。`Program.cs` file in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
 
-Add a breakpoint in line 24 (press F9) and refresh the browser with the Url to test the endpoint. The browser should not show the weather forecast, and in the Visual Studio Editor we can see how the program execution was paused at line 24.
+24行目にブレークポイントを追加し（F9キーを押す）、URLでブラウザを更新してエンドポイントをテストします。The browser should not show the weather forecast, and in the Visual Studio Editor we can see how the program execution was paused at line 24.
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/009DebugBackEndDemo.png)
 
