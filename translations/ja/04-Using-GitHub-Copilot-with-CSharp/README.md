@@ -75,7 +75,7 @@ Add a breakpoint in line 24 (press F9) and refresh the browser with the Url to t
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/009DebugBackEndDemo.png)
 
-Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. アプリケーションは今後5日間の天気のサンプル値を生成しているはずです。The variable forecast has an array containing these values.
+Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. アプリケーションは今後5日間の天気のサンプル値を生成しているはずです。The variable `forecast` has an array containing these values.
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/010DebugForecastValue.png)
 
