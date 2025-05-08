@@ -83,7 +83,7 @@ You can stop debugging now.
 
 Congratulations! Now you are ready to add more features into the app using GitHub Copilot.
 
-### 🗒️ Step 2: Get familiarized with GitHub Copilot Slash Commands
+### 🗒️ ステップ 2: GitHub Copilotのスラッシュコマンドに慣れる
 
 As we start working in our codebase, we usually need to refactor some code, or get more context or explanations about it. Using GitHub Copilot Chat, we can have AI-driven conversations to perform these tasks. 
 
