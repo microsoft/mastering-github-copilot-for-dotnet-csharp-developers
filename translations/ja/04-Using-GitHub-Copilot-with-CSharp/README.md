@@ -87,7 +87,7 @@ Congratulations! Now you are ready to add more features into the app using GitHu
 
 As we start working in our codebase, we usually need to refactor some code, or get more context or explanations about it. Using GitHub Copilot Chat, we can have AI-driven conversations to perform these tasks. 
 
-Open the file `Program.cs` in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
+BackEnd プロジェクトのファイル `Program.cs` を開きます。このファイルは `SampleApp\BackEnd\Program.cs` というパスにあります。
 
 Now let's use a slash command, in GitHub Copilot to understand a piece of code. Select lines 22-35, press `CTRL + I` to open the inline chat, and type `/explain`に移動します。  
 
