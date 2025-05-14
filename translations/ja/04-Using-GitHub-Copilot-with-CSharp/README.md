@@ -111,7 +111,7 @@ Let's use the `/tests` command to generate tests to the code. Select lines 39-42
 
 At this point, GitHub Copilot will suggest a new class. You need to first press [Accept] to create the new file. 
 
-A new class `ProgramTests.cs` was created and added to the project. This tests are using XUnit, however, you can ask to generate tests using another Unit Test library with a command like this one `/tests use MSTests for unit testing`.
+新しいクラス `ProgramTests.cs` が作成され、プロジェクトに追加されました。このテストはXUnitを使用していますが、`/tests use MSTests for unit testing` のようなコマンドを実行することで、別のユニットテストライブラリを使用してテストを生成することもできます。
 
 ***Important:** We are not going to use the test file in this project. You must delete the generated test file to continue.*
 
