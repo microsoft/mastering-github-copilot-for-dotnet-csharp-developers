@@ -119,7 +119,7 @@ Finally, let's use the `/doc` to generate automatic documentation to the code. S
 
 ![Use slash command to generate the documentation for a piece of code](../../../04-Using-GitHub-Copilot-with-CSharp/images/013SlashCmdDoc.gif)
 
-Inline chat, the Chat Panel, and slash commands are part of the amazing tools that support our development experience with GitHub Copilot. Now we are ready to add new features to this App.
+インラインチャット、チャットパネル、スラッシュコマンドは、GitHub Copilot を使った開発環境を支える素晴らしいツールの一部です。さあ、このアプリに新機能を追加する準備が整いました。
 
 
 ### 🗒️ Step 3: Generate a new Record that includes the city name
