@@ -124,7 +124,7 @@ Inline chat, the Chat Panel, and slash commands are part of the amazing tools th
 
 ### 🗒️ Step 3: Generate a new Record that includes the city name
 
-Go to the `Program.cs` file in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`  
+BackEnd プロジェクトの `Program.cs` ファイルに移動します。このファイルは `SampleApp\BackEnd\Program.cs` というパスにあります。
 
 ![BackEndプロジェクトのprogram.csを開く](../../../04-Using-GitHub-Copilot-with-CSharp/images/011OpenBackEndProject.png)  
 
