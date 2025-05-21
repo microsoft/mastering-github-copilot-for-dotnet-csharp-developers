@@ -42,7 +42,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-3.png "Screenshot that shows a response from GitHub Copilot for Azure with instructions for using a template to create a website in Azure.")
 
-    Just Remember that the Large Language Model will understand what you tell it.  Therefore, just have the conversation with it.
+    大規模言語モデルはあなたが伝えたことを理解することを覚えておいてください。ですから、ただ会話を交わすだけです。
 
 1. If the answer provides a command that begins with `azd init` in a code fence, hover over the code fence to reveal a small pop-up action menu.
 
