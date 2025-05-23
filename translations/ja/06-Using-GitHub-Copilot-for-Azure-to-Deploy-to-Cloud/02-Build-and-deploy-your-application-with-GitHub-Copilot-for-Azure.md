@@ -44,7 +44,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     Just Remember that the Large Language Model will understand what you tell it.  Therefore, just have the conversation with it.
 
-1. If the answer provides a command that begins with `azd init` in a code fence, hover over the code fence to reveal a small pop-up action menu.
+1. 回答にコード フェンス内の `azd init` で始まるコマンドが示されている場合は、コード フェンスの上にマウス カーソルを合わせると、小さなポップアップ アクション メニューが表示されます。
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-4.png "Screenshot that shows a pop-up menu with an option to insert a code-fenced command into the Visual Studio Code terminal.")
 
