@@ -48,7 +48,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-4.png "Screenshot that shows a pop-up menu with an option to insert a code-fenced command into the Visual Studio Code terminal.")
 
-    Select **Insert into Terminal** to insert the command into the terminal.
+    **Insert into Terminal** を選択して、コマンドをターミナルに挿入します。
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-5.png "Screenshot that shows the Visual Studio Code terminal after insertion of a code-fenced command.")
 
