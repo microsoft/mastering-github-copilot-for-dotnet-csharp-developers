@@ -84,7 +84,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![GitHub Copilot for Azure が Azure App Service の機能に関する説明を含む応答を示すスクリーンショット](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-8.png "Azure App Service の機能の説明を含む応答")
 
-1. 満足したら、次のコマンドをターミナルで実行して `azd init` command in the terminal. Answer its prompts. If you're unsure what to answer for a prompt, ask GitHub Copilot for Azure for help.
+1. 問題がなければ、ターミナルで `azd init` コマンドを実行し、プロンプトに答えてください。プロンプトに何と答えればよいか分からない場合は、GitHub Copilot for Azure に問い合わせてください。
 
 1. Before you can continue, you must authenticate the `azd` ツールを実行します：
 
