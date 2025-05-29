@@ -116,7 +116,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     1. When asked the location select **Canada East (canadaeast)**.
 
-    Depending on the `azd` template that you're deploying and the location that you selected, the template might take 10 minutes (or more) to deploy. But we can Move on to [Module 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md) while it completes
+    デプロイする `azd` テンプレートと選択した場所によっては、テンプレートのデプロイに10分（またはそれ以上）かかる場合があります。デプロイが完了するまでに[モジュール 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md)に進むことができます。
 
 1. If `azd up` experiences an error, ask GitHub Copilot for Azure about the error and how you can resolve it.
 
