@@ -120,7 +120,7 @@ The exact wording of the response is different each time GitHub Copilot for Azur
 
 1. If `azd up` experiences an error, ask GitHub Copilot for Azure about the error and how you can resolve it.
 
-    > **TIP**
+    > **ヒント**
     > For an easy way to attach the last terminal command results, use the paperclip icon at the bottom left of the chat pane. GitHub Copilot for Azure doesn't know the terminal command results unless they are copy/pasted or attached via the paperclip.
 
 
