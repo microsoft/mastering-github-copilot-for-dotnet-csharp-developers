@@ -23,7 +23,7 @@ Copilotを使い続ける中で、GitHub Copilotが提供する提案の中に�
 
 6. Copilot will synthesize around 10 different code suggestions or press CTRL+Enter. You should see something like this:
    ![VS Code showing pop up with Completions Panel](../../../../03-Introduction-to-GitHub-Copilot/steps/img/3-copilot-hub-0.png)
-7. Find a solution you like and click `Accept Solution`.
+7. 気に入った解決策を見つけて、`Accept Solution`をクリックします。
 8. Your `Member.cs`ファイルがあなたのソリューションで更新されます。
 
 ### ⌨️ アクティビティ: Codespaceからリポジトリにコードをプッシュ
