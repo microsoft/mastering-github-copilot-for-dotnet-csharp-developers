@@ -17,7 +17,7 @@ _素晴らしいですね、Copilotタブを活用しています！_ 🎉
    ```
    // create a method that generates a comment for a given skill
    ```
-4. `enter` to go to a new line.
+4. 新しい行に移動するには `enter` を押します。
 5. Copilot will suggest a code block.
 6. Hover over the red squiggly and select the `...`
 
