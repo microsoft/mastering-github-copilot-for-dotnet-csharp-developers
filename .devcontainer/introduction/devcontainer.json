@@ -1,15 +1,10 @@
 {
     // Name this configuration
     "name": "Introduction to Copilot",
-    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-    "image": "mcr.microsoft.com/devcontainers/dotnet:9.0",
-    "hostRequirements": {
-        "cpus": 2
-    },
     "customizations": {
         "vscode": {
             "extensions": [
-                "github.copilot",
+                "GitHub.copilot",
                 "ms-dotnettools.csdevkit"
             ]
         }
