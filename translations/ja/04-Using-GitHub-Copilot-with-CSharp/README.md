@@ -105,7 +105,7 @@ The selected C# code is part of an ASP.NET Core application using the minimal AP
 - `/fix` to propose a fix for the problems in the selected code 
 - `/generate` to generate code to answer your question
 
-Let's use the `/tests` command to generate tests to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/tests` (or select the /tests slash command) to generate a new set of tests for this record.
+`/tests` コマンドを使ってコードのテストを生成してみましょう。39行目から42行目までを選択し、`CTRL + I` を押してインラインチャットを開き、`/tests` と入力（または /tests スラッシュコマンドを選択）して、このレコードの新しいテストセットを生成します。
 
 ![Use slash command to generate tests for the selected piece of code](../../../04-Using-GitHub-Copilot-with-CSharp/images/012SlashCmdTests.gif)
 
