@@ -85,7 +85,7 @@ Congratulations! Now you are ready to add more features into the app using GitHu
 
 ### 🗒️ Step 2: Get familiarized with GitHub Copilot Slash Commands
 
-As we start working in our codebase, we usually need to refactor some code, or get more context or explanations about it. Using GitHub Copilot Chat, we can have AI-driven conversations to perform these tasks. 
+コードベースで作業を開始すると、通常、コードをリファクタリングしたり、コードに関する詳細なコンテキストや説明を入手したりする必要が生じます。GitHub Copilot Chat を使用すると、AI を活用した会話を通じてこれらのタスクを実行できます。
 
 Open the file `Program.cs` in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
 
