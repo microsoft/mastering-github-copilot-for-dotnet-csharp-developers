@@ -89,7 +89,7 @@ As we start working in our codebase, we usually need to refactor some code, or g
 
 Open the file `Program.cs` in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
 
-Now let's use a slash command, in GitHub Copilot to understand a piece of code. Select lines 22-35, press `CTRL + I` to open the inline chat, and type `/explain`に移動します。  
+GitHub Copilot でスラッシュコマンドを使ってコードの一部を理解してみましょう。22行目から35行目までを選択し、`CTRL + I`を押してインラインチャットを開き、`/explain` と入力してください。
 
 ![コードの説明をするスラッシュコマンドを使用](../../../04-Using-GitHub-Copilot-with-CSharp/images/011SlashCommandExplain.gif)  
 
