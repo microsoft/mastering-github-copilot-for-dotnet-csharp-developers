@@ -122,7 +122,7 @@ Finally, let's use the `/doc` to generate automatic documentation to the code. S
 Inline chat, the Chat Panel, and slash commands are part of the amazing tools that support our development experience with GitHub Copilot. Now we are ready to add new features to this App.
 
 
-### 🗒️ Step 3: Generate a new Record that includes the city name
+### 🗒️ ステップ3: 都市名を含む新しいレコードを生成する
 
 BackEnd プロジェクトの `Program.cs` ファイルに移動します。このファイルは `SampleApp\BackEnd\Program.cs` というパスにあります。
 
