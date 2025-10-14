@@ -81,7 +81,7 @@ Pressing F10 we can debug step-by-step until line 32, where we can see the gener
 
 You can stop debugging now.
 
-Congratulations! Now you are ready to add more features into the app using GitHub Copilot.
+おめでとうございます！これで、GitHub Copilot を使用してアプリに機能を追加する準備が整いました。
 
 ### 🗒️ ステップ 2: GitHub Copilotのスラッシュコマンドに慣れる
 
