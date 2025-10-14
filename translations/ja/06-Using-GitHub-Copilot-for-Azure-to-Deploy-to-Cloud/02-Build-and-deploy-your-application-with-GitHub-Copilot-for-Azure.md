@@ -118,7 +118,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     Depending on the `azd` template that you're deploying and the location that you selected, the template might take 10 minutes (or more) to deploy. But we can Move on to [Module 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md) while it completes
 
-1. If `azd up` experiences an error, ask GitHub Copilot for Azure about the error and how you can resolve it.
+1. `azd up` でエラーが発生した場合は、GitHub Copilot for Azure にエラーとその解決方法を問い合わせてください。
 
     > **TIP**
     > 最後のターミナルコマンドの結果を簡単に添付するには、チャットペインの左下にあるクリップアイコンを使用します。GitHub Copilot for Azure は、コピー/貼り付けまたはクリップボード経由で添付されない限り、ターミナルコマンドの結果を認識しません。
