@@ -79,7 +79,7 @@ Pressing F10 we can debug step-by-step until line 32, where we can see the gener
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/010DebugForecastValue.png)
 
-You can stop debugging now.
+これでデバッグを停止できます。
 
 おめでとうございます！これで、GitHub Copilot を使用してアプリに機能を追加する準備が整いました。
 
