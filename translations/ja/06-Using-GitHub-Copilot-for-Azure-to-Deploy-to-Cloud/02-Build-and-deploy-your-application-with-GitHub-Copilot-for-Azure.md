@@ -114,7 +114,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
 5. `azd up`. Ask GitHub Copilot for Azure questions as needed.
 
-    1. When asked the location select **Canada East (canadaeast)**.
+    1. 場所を尋ねられたら、**Canada East (canadaeast)** を選択します。
 
     デプロイする `azd` テンプレートと選択した場所によっては、テンプレートのデプロイに10分（またはそれ以上）かかる場合があります。デプロイが完了するまでに[モジュール 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md)に進むことができます。
 
