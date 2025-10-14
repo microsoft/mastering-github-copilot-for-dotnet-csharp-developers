@@ -52,7 +52,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-5.png "Screenshot that shows the Visual Studio Code terminal after insertion of a code-fenced command.")
 
-1. Before you run the `azd init` コマンドを提案する可能性があります。このコマンドがローカルコンピューターや Azure サブスクリプションにどのような影響を与えるかについて質問したくなるかもしれません。
+1. `azd init` コマンドを実行する前に、それがローカル コンピューターと Azure サブスクリプションにどのような影響を与えるかについて質問したくなるかもしれません。
 
    次のプロンプトを使用します：
 
