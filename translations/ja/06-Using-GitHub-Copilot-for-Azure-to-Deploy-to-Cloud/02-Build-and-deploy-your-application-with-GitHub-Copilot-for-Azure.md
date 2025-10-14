@@ -86,7 +86,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
 1. 満足したら、次のコマンドをターミナルで実行して `azd init` command in the terminal. Answer its prompts. If you're unsure what to answer for a prompt, ask GitHub Copilot for Azure for help.
 
-1. Before you can continue, you must authenticate the `azd` ツールを実行します：
+1. 続行する前に、ターミナルで次のコマンドを実行して `azd` ツールを認証する必要があります。
 
     ```cmd
     azd auth login
