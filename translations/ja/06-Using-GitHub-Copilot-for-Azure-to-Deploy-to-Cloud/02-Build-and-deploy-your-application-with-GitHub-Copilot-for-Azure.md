@@ -112,7 +112,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![GitHub Copilot for Azure が Azure のロケーションとその選び方に関する説明を含む応答を示すスクリーンショット](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-9.png "Azure のロケーションに関する説明を含む応答")
 
-5. `azd up`. Ask GitHub Copilot for Azure questions as needed.
+5. `azd up`。必要に応じて、Azure に関する質問は GitHub Copilot にお問い合わせください。
 
     1. 場所を尋ねられたら、**Canada East (canadaeast)** を選択します。
 
