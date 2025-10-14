@@ -115,7 +115,7 @@ A new class `ProgramTests.cs` was created and added to the project. This tests a
 
 ***Important:** We are not going to use the test file in this project. You must delete the generated test file to continue.*
 
-Finally, let's use the `/doc` to generate automatic documentation to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/doc` (or select the command) to generate the documentation for this record.
+最後に、`/doc` を使ってコードのドキュメントを自動生成しましょう。39行目から42行目までを選択し、`CTRL + I` を押してインラインチャットを開き、`/doc` と入力（またはコマンドを選択）して、このレコードのドキュメントを生成します。
 
 ![Use slash command to generate the documentation for a piece of code](../../../04-Using-GitHub-Copilot-with-CSharp/images/013SlashCmdDoc.gif)
 
