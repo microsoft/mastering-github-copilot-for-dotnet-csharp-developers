@@ -38,21 +38,21 @@ GitHub Copilot for Azure を開発およびデプロイのワークフローに�
     > **IMPORTANT**
 GitHub Copilot for Azure の回答は、大規模言語モデルがどのように応答を生成するかによって、毎回異なる表現になります。
 
-   少し待つと、GitHub Copilot for Azure が `azd` template to use.  Or in some cases will provide an answer like the following:
+   しばらくすると、GitHub Copilot for Azure が使用する `azd` テンプレートを提案するはずです。あるいは、次のような回答が返される場合もあります。
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-3.png "Screenshot that shows a response from GitHub Copilot for Azure with instructions for using a template to create a website in Azure.")
 
-    Just Remember that the Large Language Model will understand what you tell it.  Therefore, just have the conversation with it.
+    大規模言語モデルはあなたが伝えたことを理解することを覚えておいてください。ですから、ただ会話を交わすだけです。
 
-1. If the answer provides a command that begins with `azd init` in a code fence, hover over the code fence to reveal a small pop-up action menu.
+1. 回答にコード フェンス内の `azd init` で始まるコマンドが示されている場合は、コード フェンスの上にマウス カーソルを合わせると、小さなポップアップ アクション メニューが表示されます。
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-4.png "Screenshot that shows a pop-up menu with an option to insert a code-fenced command into the Visual Studio Code terminal.")
 
-    Select **Insert into Terminal** to insert the command into the terminal.
+    **Insert into Terminal** を選択して、コマンドをターミナルに挿入します。
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-5.png "Screenshot that shows the Visual Studio Code terminal after insertion of a code-fenced command.")
 
-1. Before you run the `azd init` コマンドを提案する可能性があります。このコマンドがローカルコンピューターや Azure サブスクリプションにどのような影響を与えるかについて質問したくなるかもしれません。
+1. `azd init` コマンドを実行する前に、それがローカル コンピューターと Azure サブスクリプションにどのような影響を与えるかについて質問したくなるかもしれません。
 
    次のプロンプトを使用します：
 
@@ -84,9 +84,9 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![GitHub Copilot for Azure が Azure App Service の機能に関する説明を含む応答を示すスクリーンショット](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-8.png "Azure App Service の機能の説明を含む応答")
 
-1. 満足したら、次のコマンドをターミナルで実行して `azd init` command in the terminal. Answer its prompts. If you're unsure what to answer for a prompt, ask GitHub Copilot for Azure for help.
+1. 問題がなければ、ターミナルで `azd init` コマンドを実行し、プロンプトに答えてください。プロンプトに何と答えればよいか分からない場合は、GitHub Copilot for Azure に問い合わせてください。
 
-1. Before you can continue, you must authenticate the `azd` ツールを実行します：
+1. 続行する前に、ターミナルで次のコマンドを実行して `azd` ツールを認証する必要があります。
 
     ```cmd
     azd auth login
@@ -112,19 +112,19 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 
     ![GitHub Copilot for Azure が Azure のロケーションとその選び方に関する説明を含む応答を示すスクリーンショット](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-9.png "Azure のロケーションに関する説明を含む応答")
 
-5. `azd up`. Ask GitHub Copilot for Azure questions as needed.
+5. `azd up`。必要に応じて、Azure に関する質問は GitHub Copilot にお問い合わせください。
 
-    1. When asked the location select **Canada East (canadaeast)**.
+    1. 場所を尋ねられたら、**Canada East (canadaeast)** を選択します。
 
-    Depending on the `azd` template that you're deploying and the location that you selected, the template might take 10 minutes (or more) to deploy. But we can Move on to [Module 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md) while it completes
+    デプロイする `azd` テンプレートと選択した場所によっては、テンプレートのデプロイに10分（またはそれ以上）かかる場合があります。デプロイが完了するまでに[モジュール 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md)に進むことができます。
 
-1. If `azd up` experiences an error, ask GitHub Copilot for Azure about the error and how you can resolve it.
+1. `azd up` でエラーが発生した場合は、GitHub Copilot for Azure にエラーとその解決方法を問い合わせてください。
 
     > **TIP**
-    > For an easy way to attach the last terminal command results, use the paperclip icon at the bottom left of the chat pane. GitHub Copilot for Azure doesn't know the terminal command results unless they are copy/pasted or attached via the paperclip.
+    > 最後のターミナルコマンドの結果を簡単に添付するには、チャットペインの左下にあるクリップアイコンを使用します。GitHub Copilot for Azure は、コピー/貼り付けまたはクリップボード経由で添付されない限り、ターミナルコマンドの結果を認識しません。
 
 
-1. When you are done run `azd down` のプロンプトに引き続き回答し、すべてのリソースを削除します。
+1. 完了したら、`azd down` を実行してすべてのリソースを削除します。
 
 **免責事項**:  
 本書類は、機械ベースのAI翻訳サービスを使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確さが含まれる場合があります。元の言語で記載された原文を公式な情報源としてお考えください。重要な情報については、専門の人間による翻訳を推奨いたします。本翻訳の使用に起因する誤解や解釈の誤りについて、当方は一切の責任を負いかねます。
