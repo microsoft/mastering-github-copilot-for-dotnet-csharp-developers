@@ -18,8 +18,8 @@ Copilotを使い続ける中で、GitHub Copilotが提供する提案の中に�
 4. 入力を停止し、赤い波線のグレーのテキストの上にカーソルを合わせてCopilotの提案を確認します。その後、`...`
 5. Click `Open Completions Panel`. 
 
-   > **Note**
-   > If you don't see the copilot code block suggestion or the red squiggly and the three dots `...`, you can type `control + enter` to bring up the GitHub Copilot completions panel.
+   > **注:**
+   > Copilot コード ブロックの提案や赤い波線と 3 つのドット `...` が表示されない場合は、`control + enter` と入力して GitHub Copilot 補完パネルを表示できます。
 
 6. Copilot will synthesize around 10 different code suggestions or press CTRL+Enter. You should see something like this:
    ![VS Code showing pop up with Completions Panel](../../../../03-Introduction-to-GitHub-Copilot/steps/img/3-copilot-hub-0.png)
