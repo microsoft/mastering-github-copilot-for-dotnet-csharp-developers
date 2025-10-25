@@ -109,7 +109,7 @@ Let's use the `/tests` command to generate tests to the code. Select lines 39-42
 
 ![Use slash command to generate tests for the selected piece of code](../../../04-Using-GitHub-Copilot-with-CSharp/images/012SlashCmdTests.gif)
 
-At this point, GitHub Copilot will suggest a new class. You need to first press [Accept] to create the new file. 
+この時点で、GitHub Copilot は新しいクラスを提案します。新しいファイルを作成するには、まず [Accept] を押す必要があります。
 
 A new class `ProgramTests.cs` was created and added to the project. This tests are using XUnit, however, you can ask to generate tests using another Unit Test library with a command like this one `/tests use MSTests for unit testing`.
 
