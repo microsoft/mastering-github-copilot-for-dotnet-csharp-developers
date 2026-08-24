@@ -75,7 +75,7 @@ Add a breakpoint in line 24 (press F9) and refresh the browser with the Url to t
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/009DebugBackEndDemo.png)
 
-Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. The application should have been generated samples Weather values for the next 5 days. The variable `forecast` has an array containing these values.
+F10 キーを押すと、生成された値を確認できる 32 行目までステップごとにデバッグできます。The application should have been generated samples Weather values for the next 5 days. The variable `forecast` has an array containing these values.
 
 ![debug the running application.](../../../04-Using-GitHub-Copilot-with-CSharp/images/010DebugForecastValue.png)
 
