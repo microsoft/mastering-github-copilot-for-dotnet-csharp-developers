@@ -38,7 +38,7 @@ GitHub Copilot for Azure を開発およびデプロイのワークフローに�
     > **IMPORTANT**
 GitHub Copilot for Azure の回答は、大規模言語モデルがどのように応答を生成するかによって、毎回異なる表現になります。
 
-   少し待つと、GitHub Copilot for Azure が `azd` template to use.  Or in some cases will provide an answer like the following:
+   しばらくすると、GitHub Copilot for Azure が使用する `azd` テンプレートを提案するはずです。あるいは、次のような回答が返される場合もあります。
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-3.png "Screenshot that shows a response from GitHub Copilot for Azure with instructions for using a template to create a website in Azure.")
 
