@@ -124,7 +124,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
     > For an easy way to attach the last terminal command results, use the paperclip icon at the bottom left of the chat pane. GitHub Copilot for Azure doesn't know the terminal command results unless they are copy/pasted or attached via the paperclip.
 
 
-1. When you are done run `azd down` のプロンプトに引き続き回答し、すべてのリソースを削除します。
+1. 完了したら、`azd down` を実行してすべてのリソースを削除します。
 
 **免責事項**:  
 本書類は、機械ベースのAI翻訳サービスを使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確さが含まれる場合があります。元の言語で記載された原文を公式な情報源としてお考えください。重要な情報については、専門の人間による翻訳を推奨いたします。本翻訳の使用に起因する誤解や解釈の誤りについて、当方は一切の責任を負いかねます。
