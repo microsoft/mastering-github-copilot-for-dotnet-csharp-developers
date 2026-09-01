@@ -16,7 +16,7 @@ Copilotを使い続ける中で、GitHub Copilotが提供する提案の中に�
    public strin
    ```
 4. 入力を停止し、赤い波線のグレーのテキストの上にカーソルを合わせてCopilotの提案を確認します。その後、`...`
-5. Click `Open Completions Panel`. 
+5. `Open Completions Panel`をクリックします。 
 
    > **Note**
    > If you don't see the copilot code block suggestion or the red squiggly and the three dots `...`, you can type `control + enter` to bring up the GitHub Copilot completions panel.
