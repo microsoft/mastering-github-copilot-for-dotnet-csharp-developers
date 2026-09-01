@@ -121,7 +121,7 @@ GitHub Copilot for Azure の回答は、大規模言語モデルがどのよう�
 1. If `azd up` experiences an error, ask GitHub Copilot for Azure about the error and how you can resolve it.
 
     > **TIP**
-    > For an easy way to attach the last terminal command results, use the paperclip icon at the bottom left of the chat pane. GitHub Copilot for Azure doesn't know the terminal command results unless they are copy/pasted or attached via the paperclip.
+    > 最後のターミナルコマンドの結果を簡単に添付するには、チャットペインの左下にあるクリップアイコンを使用します。GitHub Copilot for Azure は、コピー/貼り付けまたはクリップボード経由で添付されない限り、ターミナルコマンドの結果を認識しません。
 
 
 1. When you are done run `azd down` のプロンプトに引き続き回答し、すべてのリソースを削除します。
