@@ -26,7 +26,7 @@ _素晴らしいですね、Copilotタブを活用しています！_ 🎉
 
 7. Click `Open Completions Panel`. Copilot will synthesise around 10 different code suggestions. You should see something like this:
    ![VS Code showing suggestions to a comment](../../../../03-Introduction-to-GitHub-Copilot/steps/img/4-copilot-comment-0.png)
-8. Find a solution you like and click `Accept Solution` を押します。
+8. 気に入った解決策を見つけて、`Accept Solution`をクリックします。
 9. `Comments.cs` ファイルが解決済みの内容で更新されます。
 
 ### ⌨️ アクティビティ: コードスペースからリポジトリにコードをプッシュする
